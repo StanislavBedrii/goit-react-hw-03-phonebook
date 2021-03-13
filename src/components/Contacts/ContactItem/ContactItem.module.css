@@ -1,0 +1,30 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.button {
+  height: 30px;
+  border: 2px solid rgb(0, 140, 255);
+  border-radius: 15px;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.button:hover {
+  background-color: pink;
+  border-color: #fff;
+}
+
+.fullName {
+  display: flex;
+  flex-direction: column;
+}
+
+li:hover {
+  background-color: lightblue;
+}
